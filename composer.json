@@ -1,0 +1,21 @@
+{
+  "name": "tiennguy/oneweekprojects/weatherapp" ,
+  "description": "My Weather application",
+  "authors": [
+    {
+      "name": "Tien Nguyen",
+      "email": "tiennguyen3354@gmail.com"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload": {
+    "classmap": [
+       "controller/",
+       "model/",
+       "classes/"
+    ]
+  }
+
+}
